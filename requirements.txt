@@ -1,6 +1,5 @@
 streamlit
 pandas
 joblib
-scikit-learn==1.6.1  # <--- Pin to this older version
-
-
+scikit-learn==1.6.1
+xgboost==3.1.2
