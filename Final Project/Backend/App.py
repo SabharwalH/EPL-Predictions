@@ -14,10 +14,10 @@ st.set_page_config(
 # NOTE: Ensure these files exist at the specified paths. Change them to relative paths
 # (e.g., "Goals.pkl") and place the files next to this script for better portability.
 MATCH_WINNER_FILE = "Final Project/Backend/Models/Match winner.pkl"
-LEAGUE_WINNER_FILE = "EPL-Predictions/Final Project/Backend/Models/Team league winner or not_LogisticRegression.pkl"
-TOTAL_POINTS_FILE = "EPL-Predictions/Final Project/Backend/Models/To predict total points team can score.pkl"
-GOALS_FILE = "EPL-Predictions/Final Project/Backend/Models/Goals.pkl"
-ASSISTS_FILE = "EPL-Predictions/Final Project/Backend/Models/Assists.pkl"
+LEAGUE_WINNER_FILE = "Final Project/Backend/Models/Team league winner or not_LogisticRegression.pkl"
+TOTAL_POINTS_FILE = "Final Project/Backend/Models/To predict total points team can score.pkl"
+GOALS_FILE = "Final Project/Backend/Models/Goals.pkl"
+ASSISTS_FILE = "Final Project/Backend/Models/Assists.pkl"
 # --- MODEL LOADING ---
 @st.cache_resource
 def load_ml_model(file_name):
@@ -401,5 +401,6 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
+
 
 
